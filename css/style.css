@@ -31,6 +31,23 @@ section .heading h2{
 ul {
     list-style: none;
 }
+.button1 {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 18px 50px;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all 0.3s ease-in 0s;
+    background: transparent;
+}
+.button1:hover {
+    background: white;
+    color: #00ab44;
+}
 
 /*NAVBAR*/
 .navbar {
@@ -66,22 +83,7 @@ ul {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.button1 {
-    font-weight: bold;
-    color: white;
-    text-transform: uppercase;
-    border: 1px solid white;
-    padding: 18px 50px;
-    display: inline-block;
-    border-radius: 3px;
-    text-decoration: none;
-    margin-top: 20px;
-    transition: all 0.3s ease-in 0s;
-}
-.button1:hover {
-    background: white;
-    color: #00ab44;
-}
+
 
 /*SKILLS*/
 #skills .heading h2{
@@ -278,4 +280,39 @@ footer span hover {
 footer h5 {
     color: white;
     font-weight: normal;
+}
+
+/*CONTACT*/
+#contact{
+    background: #00ab44;
+}
+
+#contact .heading h2{
+    color: #fff;
+}
+
+#contact-form{
+    font-size: 20px;
+    color: #fff;
+}
+
+.form-control{
+    height: 50px;
+    font-size: 18px;
+}
+.comments{
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    height: 25px;
+}
+#contact-form input[type=submit]{
+    margin: 40px auto 0px;
+    display: block;
+}
+.thank-you{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
 }
