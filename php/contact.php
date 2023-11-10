@@ -27,7 +27,7 @@
             
         if(empty($array["name"]))
         {
-            $array["nameError"] = "je connaître ton nom aussi !";
+            $array["nameError"] = "je veux connaître ton nom aussi !";
             $array["isSuccess"] = false;
         }
         else

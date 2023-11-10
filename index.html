@@ -400,27 +400,29 @@
             <div class="row">
                 <div class="">
                     <!--form_submitting app-->
-                    <form id="contact-form" method="post" action="" role="form">
-<!--                         <input type="hidden" name="_next" value="">
-                        <input name="_captcha" type="hidden" value="false"> -->
+                    <form id="contact-form" method="post" action="https://formsubmit.co/moussadiallo10.mmd@gmail.com" role="form">
+                        <input type="hidden" name="_next" value="https://overwatchjalloh.github.io/Mon_Portfolio/">
+                        <input type="hidden" name="_template" value="table">
+                        <!-- <input name="_captcha" type="hidden" value="false"> -->
 
                         <div class="row">
     
                             <div class="col-md-6">
                                 <label for="firstname">Prénom *</label>
-                                <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Votre prénom">
+                                <input type="text" id="firstname" name="firstname" class="form-control" placeholder="Votre prénom" required
+                                oninvalid="this.setCustomValidity('Puis-je connaître ton prénoms stp !')" oninput="setCustomValidity('')">
                                 <p class="comments"></p>
                             </div>
     
                             <div class="col-md-6">
                                 <label for="name">Nom *</label>
-                                <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom">
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Votre nom" required oninvalid="this.setCustomValidity('je veux connaître ton nom aussi !')" oninput="setCustomValidity('')">
                                 <p class="comments"></p>
                             </div>
     
                             <div class="col-md-6">
                                 <label for="email">Email *</label>
-                                <input type="email" id="email" name="email" class="form-control" placeholder="Votre email">
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Votre email" required oninvalid="this.setCustomValidity('Est-ce une joke? Entre un email et arrête de me niaiser!')" oninput="setCustomValidity('')">
                                 <p class="comments"></p>
                             </div>
     
@@ -432,7 +434,7 @@
     
                             <div class="col-md-12">
                                 <label for="message">Message *</label>
-                                <textarea type="text" id="message" name="message" class="form-control" placeholder="Votre message" rows="4"></textarea>
+                                <textarea type="text" id="message" name="message" class="form-control" placeholder="Votre message" rows="4" required oninvalid="this.setCustomValidity('Quel message veux-tu que je reçoives ?')" oninput="setCustomValidity('')"></textarea>
                                 <p class="comments"></p>
                             </div>
     
@@ -447,6 +449,7 @@
                         </div>
     
                      </form>
+                     <div id="thank-you" style="display: none;">Votre message a bien été envoyé. Merci de m'avoir contacté :)</div>
                 </div>
             </div>
     

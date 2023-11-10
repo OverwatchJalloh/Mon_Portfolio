@@ -1,12 +1,21 @@
+
 $(function () {
-    /* $(".navbar a, footer a").on("click", function(event){
+     $(".navbar a, footer a").on("click", function(event){
         event.preventDefault();
         var hash = this.hash;
 
         $('body').animate({scrollTop: $(hash).offset().top}, 900, function(){window.location.hash = hash;})
-    }); */
+    });
+/*     <script>
+        document.getElementById("form-contact")
+        .onsubmit = function(event)
+        {
+            event.preventDefault();
+            document.getElementById("thank-you").style.display = "block";
+        }
+    </script> */
 
-    $('#contact-form').submit(function(e){
+     $('#contact-form').submit(function(e){
 
         e.preventDefault();
         $('.comments').empty();
@@ -37,6 +46,6 @@ $(function () {
 
         });
 
-    });
+    }); 
 
 })
