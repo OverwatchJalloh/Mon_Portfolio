@@ -22,7 +22,7 @@ section .heading h2{
 .divider {
     width: 100px;
     height: 2px;
-    background-color: #00ab44;
+    background-color: #0097ab;
     margin: 0 auto 20px;
 }
 .divider.white {
